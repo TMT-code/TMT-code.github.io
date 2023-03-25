@@ -72,7 +72,7 @@ function dropDown() {
     else block.innerHTML="";
   }
 // dang nhap
-  function login(e){
+  function login(){
     event.preventDefault();
     var email = document.getElementById("email").value;
     var pass = document.getElementById("password").value;
