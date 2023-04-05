@@ -3,6 +3,24 @@
     width: 31.5%;
     
 }
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #b38600;
+}
+
+.actives {
+    background-color: #b38600;
+    border: rgba(0, 0, 0, 0.2);
+}
+
 body {
     width: 100%;
 }

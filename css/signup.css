@@ -1,109 +1,50 @@
+@media (min-width: 1200px){
+    .container {
+        max-width: 570px;
+    }
+}
+
 body {
-    /* background: linear-gradient(to bottom right,#cac531,#f3f9a7); */
     background-color: #d2be82;
     background-repeat: no-repeat;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-form {
+.container {
     background-color: #eee;
-    text-align: center;
-    width: fit-content;
-    padding: 100px 43px 60px 43px;
-    margin-left: 40%;
-    display: flex;
-    flex-direction: column;
     border-radius: 10px;
-    margin-top: 6%;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 90%;
 }
-
-form h1 {
-    position: relative;
-    bottom: 7vw;
-    color : #d4ab2f;
-}
-
-form .block {
-    position: relative;
-    bottom: 7vw;
-    width: 2vw;
-}
-
-.block input {
-    width: 21vw;
-    height: 2vw;
-    position: relative;
-    border-radius: 5px;
-    padding-left: 10px;
-
-}
-
-form .email {
-    margin-bottom: 7%;
-}
-
-form .cpassword {
-    margin-top: 7%;
-}
-
-.forgot-pass a {
-    position: relative;
-    bottom: 6vw;
-    text-decoration: none;
-}
-
-.forgot-pass a:hover {
-    color: red;
-}
-
-button {
-    position: relative;
-    bottom: 5vw;
-    width: 22vw;
-    height: 2.3vw;
-    border-radius: 5px;
-    color:white;
-    background-color: #d4ab2f;
-}
-
-button:hover {
-    background-color: #ebb618;
-    color: black;
-}
-
-.signup span {
-    position: relative;
-    bottom: 4vw;
-}
-
-.facebook a {
+.facebook {
     text-decoration: none;
     background-color: #3B5998;
     color: #E9EBEE;
-    padding: 0.6vw 6vw;
+    padding: 8px 85px;
     border-radius: 5px;
 }
 
-.facebook a:hover {
-    background-color: #18326a;
+.facebook:hover {
+    background-color: #13357e;
+    text-decoration: none;
+    color: white;
 }
 
-.google a:hover {
+.google:hover {
     background-color: #ccc;
+    text-decoration: none;
+    color: black;
 }
 
-.google a {
+.google  {
     text-decoration: none;
     background-color: #ddd;
     color: black;
-    padding: 0.6vw 6.4vw;
-    position: relative;
-    top: 2vw;
+    padding: 8px 93px;
     border: 1px solid;
     border-radius: 5px;
     
 }
-
 .fa-google { 
     background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
     -webkit-background-clip: text;
@@ -112,14 +53,24 @@ button:hover {
     -webkit-text-fill-color: transparent;
     
 }
-.or {
-    position: relative;
-    bottom: 2vw;
-}   
 
-.notify {
-    position: relative;
-    bottom: 2vw;
-    font-style: italic;
-    color: red;
+h1 {
+    color : #d4ab2f
+}
+
+.btn {
+    background-color: #d4ab2f;
+    color: whitesmoke;
+}
+
+.btn:hover {
+    background-color: #ebb618;
+    color: white;
+}
+
+.fa-eye {
+    position: absolute;
+    top: 65%;
+    right: 19px;
+    cursor: pointer;
 }

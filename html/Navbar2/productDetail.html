@@ -12,34 +12,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <title>productDetail</title>
 </head>
-<body onload="active('product')">
-    <div class="sticky-top">
-        <iframe id="iframe" src="../layout/layout.html" width="105%" height="100%" frameborder="0"></iframe>
-        <div class="productActive"></div>
-    </div>    
+<body>
+    <nav class="navbar nav-tabs navbar2 navbar-expand-sm sticky-top" style="background-color: #d4ab2f; color: white;">
+        <a class="navbar-brand ml-lg-3" href="/html/Navbar2/home2.html">
+            <img src="/image/logo.png" alt="logo" width="80px" height="50px">
+        </a>
+        <div class="collapse navbar-collapse justify-content-center ml-5" id="navbarSupportedContent">
+            <ul class="navbar-nav" id="bar2">
+                <li class="nav-item mr-3" id="home">
+                    <a class="nav-link" href="/html/Navbar2/home2.html">HOME <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-3 " id="product">
+                    <a class="nav-link" href="/html/Navbar2/product2.html">PRODUCTS</a>
+                </li>
+                <li class="nav-item mr-3 actives">
+                    <a class="nav-link" href="/html/Navbar2/productDetail.html">SLIDER</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="/html/Navbar2/contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item mr-5">
+                    <a class="nav-link" href="/html/form/login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        Sign out<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+
+        </div>
+    </nav>    
     <h1 class ="title">BEAUTIFUL TEMPLATES</h1>
     <p class="vp">This is just my homework, sorry if it sounds similar to yours. I have absolutely no intention of doing business or any commercial transaction, thank you for your sympathy</p>
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            1 of 2
-          </div>
-          <div class="col">
-            2 of 2
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            1 of 3
-          </div>
-          <div class="col">
-            2 of 3
-          </div>
-          <div class="col">
-            3 of 3
-          </div>
-        </div>
-      </div>
     <div class="bigBlock1 bigBlock">
         <div class="block1 line1">
             <a href="/html/product-item/larana-item.html"><img src="/image/Larana-Company/thumbnail-Larana.jpg" alt="thumbnail"></a>
@@ -116,6 +123,12 @@
                 <div class="scale" data-toggle="tooltip" data-placement="top" title="scale">16:9</div>
                 <div class="category" data-toggle="tooltip" data-placement="right" title="category">Presentation</div>
             </div>
+        </div>
+    </div>
+    <div class="footer container-fluid bg-light mt-5">
+        <div class="row ml-5">
+            <p class="mr-5"><i class="fa-solid fa-phone-volume"></i> Question? Call us:(010)0123456</p>
+            <p><i class="fa-solid fa-square-envelope"></i> tientaminh287@gmail.com</p>
         </div>
     </div>
     <script src="/js/main.js"></script>
